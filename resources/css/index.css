@@ -1,8 +1,40 @@
 body {
   font-family: Helvetica;
+  text-align: center;
 }
 .header h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
+}
+.header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+.button-nav {
+  font-size: 18px;
+  color: white;
+}
+.first-container h3, h4 {
+  font-weight: bold;
+}
+.first-container h3 {
+  font-size: 32px;
+}
+.first-container h4 {
+  font-size: 23px;
+}
+.designed-in-nyc {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+#info {
+  font-size: 14px;
+}
+.footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
